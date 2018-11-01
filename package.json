@@ -1,0 +1,16 @@
+{
+  "name": "ro-site",
+  "version": "0.1.0",
+  "description": "realme.one foundation website",
+  "main": "index.js",
+  "repository": "https://github.com/realmeone/ro-site.git",
+  "author": "ashimida6",
+  "license": "MIT",
+  "private": false,
+  "scripts": {    
+    "dev": "lite-server"
+  },
+  "devDependencies": {
+    "lite-server": "^2.4.0"
+  }
+}
