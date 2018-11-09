@@ -7,26 +7,18 @@
 | Component | Version | Description |
 |:--------|:----|:----------|
 | yarn | 1.7.0 | component manage |
-| vue-cli | 2.9.6 | init project structure |
-| vue | 2.5.2 | |
+| [vue-cli](https://cli.vuejs.org) | 3+ | init project structure |
 | bootstrap | 4.1.3 | |
-| webpack | 3.6.0 | |
 
 ## Build from source
 
 ```shell
 yarn install
-npm run build
+yarn build
 ```
 
 ## Test
 
 ```shell
-npm run dev
-```
-
-## Package
-
-```shell
-npm run build
+yarn serve
 ```

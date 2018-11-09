@@ -1,12 +1,17 @@
 <template>
   <div id="app">
-    <router-view/>
+    <CommingSoon/>
   </div>
 </template>
 
 <script>
+import CommingSoon from './components/CommingSoon.vue'
+
 export default {
-  name: 'App'
+  name: 'app',
+  components: {
+    CommingSoon
+  }
 }
 </script>
 
